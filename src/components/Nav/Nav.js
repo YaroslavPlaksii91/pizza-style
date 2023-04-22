@@ -1,11 +1,12 @@
 import { NavLink, Link } from 'react-router-dom';
+import { RiShoppingCartLine } from 'react-icons/ri';
 import { Logo } from 'components/Logo';
 import s from './Nav.module.css';
 
 export const Nav = () => {
   return (
     <nav className={s.nav}>
-      <Link to="/pizza">
+      <Link to="/pizza" className={s.link}>
         <Logo />
       </Link>
 
@@ -20,7 +21,7 @@ export const Nav = () => {
         to="/cart"
         className={({ isActive }) => (isActive ? s.activeLink : s.link)}
       >
-        Cart
+        <RiShoppingCartLine className={s.cart} />
       </NavLink>
     </nav>
   );

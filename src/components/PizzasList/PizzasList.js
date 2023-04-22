@@ -5,7 +5,7 @@ export const PizzasList = ({ pizzas }) => {
   return (
     <ul className={s.list}>
       {pizzas.map(pizza => (
-        <li key={pizza.id}>
+        <li key={pizza.id} className={s.item}>
           <Pizza pizza={pizza} />
         </li>
       ))}

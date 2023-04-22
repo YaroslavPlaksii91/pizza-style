@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.activeLink {
+  composes: link;
+  color: orange;
+}
