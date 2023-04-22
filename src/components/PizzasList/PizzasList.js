@@ -3,7 +3,7 @@ import s from './PizzasList.module.css';
 
 export const PizzasList = ({ pizzas }) => {
   return (
-    <ul>
+    <ul className={s.list}>
       {pizzas.map(pizza => (
         <li key={pizza.id}>
           <Pizza pizza={pizza} />

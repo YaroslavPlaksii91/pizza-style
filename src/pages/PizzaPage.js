@@ -1,6 +1,8 @@
 import { PizzasList } from 'components/PizzasList';
-import { products } from 'products';
+import { products } from 'services/products';
 
-export const PizzaPage = () => {
+const PizzaPage = () => {
   return <PizzasList pizzas={products} />;
 };
+
+export default PizzaPage;
