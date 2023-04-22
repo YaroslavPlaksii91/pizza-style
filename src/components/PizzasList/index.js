@@ -1,0 +1,1 @@
+export { PizzasList } from './PizzasList';
