@@ -7,13 +7,23 @@
 .link {
   font-size: 20px;
   font-weight: 500;
-  opacity: 1;
-  transition: opacity 250ms ease;
+  color: black;
+  transition: color 250ms ease;
+}
+
+.link p {
+  scale: 1;
+  transition: transform 250ms ease;
+}
+
+.link:hover p,
+.link:focus p {
+  transform: scale(1.02);
 }
 
 .link:hover,
 .link:focus {
-  opacity: 0.5;
+  color: orange;
 }
 
 .activeLink {
