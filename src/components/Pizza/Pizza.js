@@ -43,9 +43,9 @@ export const Pizza = ({ pizza }) => {
   };
 
   return (
-    <article className={s.card}>
+    <article className={s.card} tabIndex={0}>
       <div className={s.image}>
-        <img src={image} alt={title} />
+        <img src={image} alt={title} loading="lazy" />
       </div>
       <h3 className={s.title}>{title}</h3>
       <p className={s.description}>{description}</p>

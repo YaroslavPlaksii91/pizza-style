@@ -1,20 +1,38 @@
 .circle {
-  position: relative;
+  position: fixed;
+  top: 13px;
+  right: 26px;
+  z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30px;
   height: 30px;
-  border: 2px solid black;
+  border: 2px solid;
+  border-color: currentColor;
   border-radius: 50%;
   transition: border-color 250ms ease;
 }
 
+@media (min-width: 768px) {
+  .circle {
+    right: calc((100vw - 768px) / 2 + 35px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .circle {
+    right: calc((100vw - 1280px) / 2 + 35px);
+  }
+}
+
 .circle:hover,
-.circle:focus,
+.circle:focus {
+  border-color: orange;
+}
+
 .circle:hover .cart,
 .circle:focus .cart {
-  border-color: orange;
   color: orange;
 }
 

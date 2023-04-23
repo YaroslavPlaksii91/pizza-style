@@ -5,7 +5,7 @@ export const products = [
     description: 'A classic pizza topped with pepperoni slices.',
     price: 99,
     image:
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg',
+      'https://panda-pizza.com.ua/cache/dish-mobile/img/dishes/pizza/4seasons.jpg?130223',
   },
   {
     id: 2,

@@ -7,6 +7,13 @@
 .link {
   font-size: 20px;
   font-weight: 500;
+  opacity: 1;
+  transition: opacity 250ms ease;
+}
+
+.link:hover,
+.link:focus {
+  opacity: 0.5;
 }
 
 .activeLink {

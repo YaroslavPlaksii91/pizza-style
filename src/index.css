@@ -29,6 +29,7 @@ a {
   text-decoration: none;
   display: block;
   color: inherit;
+  outline: none;
 }
 
 h1,
@@ -44,7 +45,7 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -53,4 +54,5 @@ button {
   padding: 0;
   border: none;
   cursor: pointer;
+  outline: none;
 }
