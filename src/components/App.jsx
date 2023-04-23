@@ -14,10 +14,10 @@ export const App = () => {
   return (
     <Routes>
       <Route path="/" element={<SharedLayout />}>
-        <Route index path="pizza" element={<PizzaPage />} />
+        <Route index element={<PizzaPage />} />
         <Route path="cart" element={<CartPage />} />
       </Route>
-      <Route path="*" element={<Navigate to="/pizza" />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
 };

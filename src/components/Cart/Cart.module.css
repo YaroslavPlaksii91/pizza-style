@@ -1,0 +1,46 @@
+.circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  transition: border-color 250ms ease;
+}
+
+.circle:hover,
+.circle:focus,
+.circle:hover .cart,
+.circle:focus .cart {
+  border-color: orange;
+  color: orange;
+}
+
+.circle:hover .amount,
+.circle:focus .amount {
+  border-color: black;
+  color: orange;
+}
+
+.cart {
+  transition: color 250ms ease;
+}
+
+.amount {
+  position: absolute;
+  top: -5px;
+  right: -16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 17px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid orange;
+  border-radius: 50%;
+  color: black;
+  transition: border-color 250ms ease, color 250ms ease;
+}
