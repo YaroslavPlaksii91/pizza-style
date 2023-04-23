@@ -16,7 +16,7 @@
 
 @media (min-width: 768px) {
   .circle {
-    right: calc((100vw - 768px) / 2 + 35px);
+    right: 35px;
   }
 }
 
