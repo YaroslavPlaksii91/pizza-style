@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/cart-page.29663f6a.chunk.js","mappings":"kIAIA,UAJiB,WACf,OAAO,qCACR,C","sources":["pages/CartPage.js"],"sourcesContent":["const CartPage = () => {\n  return <h2>Cart Page</h2>;\n};\n\nexport default CartPage;\n"],"names":[],"sourceRoot":""}
